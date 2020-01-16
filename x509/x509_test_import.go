@@ -12,10 +12,11 @@ package main
 import (
 	"crypto/rand"
 	"crypto/x509"
-	"crypto/x509/pkix"
 	"encoding/pem"
 	"math/big"
 	"time"
+
+	"github.com/LightningPeach/crypto/x509/pkix"
 )
 
 func main() {

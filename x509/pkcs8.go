@@ -7,10 +7,11 @@ package x509
 import (
 	"crypto/ecdsa"
 	"crypto/rsa"
-	"crypto/x509/pkix"
 	"encoding/asn1"
 	"errors"
 	"fmt"
+
+	"github.com/LightningPeach/crypto/x509/pkix"
 )
 
 // pkcs8 reflects an ASN.1, PKCS#8 PrivateKey. See

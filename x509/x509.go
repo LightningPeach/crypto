@@ -19,13 +19,10 @@ import (
 	_ "crypto/sha1"
 	_ "crypto/sha256"
 	_ "crypto/sha512"
-	"crypto/x509/pkix"
 	"encoding/asn1"
 	"encoding/pem"
 	"errors"
 	"fmt"
-	"internal/x/crypto/cryptobyte"
-	cryptobyte_asn1 "internal/x/crypto/cryptobyte/asn1"
 	"io"
 	"math/big"
 	"net"
@@ -36,6 +33,10 @@ import (
 	"unicode/utf8"
 
 	"github.com/btcsuite/btcd/btcec"
+
+	"github.com/LightningPeach/crypto/cryptobyte"
+	cryptobyte_asn1 "github.com/LightningPeach/crypto/cryptobyte/asn1"
+	"github.com/LightningPeach/crypto/x509/pkix"
 )
 
 // pkixPublicKey reflects a PKIX public key structure. See SubjectPublicKeyInfo
