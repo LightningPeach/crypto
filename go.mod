@@ -1,4 +1,4 @@
-module github.com/LightningPeach/crypt
+module github.com/LightningPeach/crypto
 
 go 1.12
 
